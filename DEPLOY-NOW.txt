@@ -1,0 +1,33 @@
+ASTROVANI – VERCEL FIXED PACKAGE
+
+This package fixes the previous Vercel 404 routing problem.
+
+IMPORTANT:
+1. This package is for the NEW Astrovani GitHub repository only.
+2. Frontend HTML/CSS/JS files are now at the project root.
+3. api/index.py remains the FastAPI + Swiss Ephemeris backend.
+4. supabase/schema.sql is preserved.
+5. Do NOT put the whole ZIP file inside GitHub. Extract it first.
+
+GitHub root should contain:
+api/
+supabase/
+index.html
+kundli.html
+chart.html
+match.html
+panchang.html
+astrologers.html
+user.html
+astrologer.html
+admin.html
+chat.html
+app.js
+style.css
+vercel.json
+.python-version
+requirements.txt
+README.md
+
+After replacing the repository contents, commit the changes.
+Vercel should automatically create a new deployment from the latest commit.
